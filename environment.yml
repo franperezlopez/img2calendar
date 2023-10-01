@@ -1,0 +1,29 @@
+name: img2calendar
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.10
+  - ipykernel
+  - python-dotenv
+  - openai
+  - langchain
+  - huggingface_hub
+  - ipywidgets
+  - tiktoken
+  - rich
+  - duckdb
+  - streamlit
+pip:
+  - git+https://github.com/huggingface/transformers
+  - pinecone-client
+  - langchain
+#  - unstructured[local-inference]
+  - pypdf
+  - geopy
+  - streamlit
+  - loguru
+  - azure-ai-formrecognizer
+  - icecream
+  - pendulum
+  - geopy
+
